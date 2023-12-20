@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Button Practice</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <H1>Start Your League of Legends Journey</H1>
+    <button>Download League</button>
+    <p>You have a funtional life.</p>
+</body>
+<script>
+    const btn = document.querySelector("button");
+    const txt = document.querySelector("p");
+
+    btn.addEventListener("click", updateBtn);
+    
+    function updateBtn() {
+  if (btn.textContent === "Download League") {
+    btn.textContent = "Uninstall League";
+    txt.textContent = "Your life is ruined!";
+  } else {
+    btn.textContent = "Download League";
+    txt.textContent = "You have a funtional life.";
+  }
+}
+</script>
+</html>

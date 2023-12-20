@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+</head>
+<body>
+    <h1>JavaScript Output</h1>
+    <p id="demo"></p>    
+    <script>
+        console.log("Hello, World!")
+        let message;
+        message = 'Hello'; //store the string "Hello" in variable named "message"//
+        // we can define variable in one line and many of them also in one line//
+        //Example: let user = 'John', age = 25, message = 'Hello';//
+        let $ = 1; // declared a variable with the name "$"
+        let _ = 2; // and now a variable with the name "_"
+
+        const COLOR_RED = "#F00";
+        const COLOR_GREEN = "#0F0";
+        const COLOR_BLUE = "#00F";
+        const COLOR_ORANGE = "#FF7F00";
+
+        // ...when we need to pick a color
+        let color = COLOR_ORANGE;
+
+        let name = 'John'
+        let admin;
+        admin = name;
+        //Better way to do it:   let name, admin;     name = 'John';    admin = name;     alert(admin) should output John   //
+
+        let ourPlanetName = 'Earth';
+        let currentUserName = 'John';
+
+        const BIRTHDAY = '18.04.1982'; //"birthday" should be capitalized while "age" should be left normal
+
+        let y = 3;
+        let x = (100 + 50) * y;
+        document.getElementById("demo").innerHTML = y;
+        
+        console.log(23+97)
+
+        console.log(69+420-96+500-3);
+
+        console.log((4+6+9)/77)
+
+        const fourDecimalPlaces = (4+6+9)/77;
+        const final = fourDecimalPlaces.toFixed(4)
+
+        let a = 10
+        let b = 7 * a
+
+        const max = 57;
+        let actual = max - 13;
+        let percentage = max * 7;
+
+        let nameFieldChecked = true;
+        let ageFieldChecked = false;
+
+        let isGreater = 39 > 38.9;
+    </script>
+
+</body>
+</html>

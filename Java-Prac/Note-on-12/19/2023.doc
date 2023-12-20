@@ -1,0 +1,82 @@
+[To get a good plan, try to answer this question:
+ "Given input X, what are the neccessary steps to return output Y?"]
+
+[Do not try to solve a big problem. Instead, break it into sub-problems.]
+
+[Three things to try when you are stucK:
+    1. Debugging: go step by step through your code and see what went wrong.
+    2. Reassess: Take a step back and look at the problem from another angle See if any thing that can be abstacted to a more general approach. Delete everything and start again from the beginning if required.
+    3. Research: It is near zero chance that a problem that hasn't been solved or attempted at solving on google. Even if you got the answer you still might learn alot from how others do it differently.]
+
+{Coding has about eight main concept:
+    1. New Variable:
+       . Name: what do we call this thing?
+       . Type: what type of data does it contain?
+       . InitVal: what is it's starting value?
+    2. Output:
+       . Message: text to write to users.
+    3. Inputs:
+       . Variable: where the answer will be stored.
+       . Message: question ask of the user.
+       . Input algorithm: ask user messages and store them in variables
+    4. While loop:
+       . Sentry: variable that will control loop.
+       . Initialization code: code that initializes sentry.
+       . Consition: loop repeats if the condition is true.
+       . Change code: code to change sentry so condition can be triggered.
+}
+
+
+[Assigment: write an algorithm ask user for two number and add them // No code mention
+    New Variable: named "a" and "b", they contain numbers and have no starting value.
+    Output: "Your answer is " a + b"
+    Inputs: First number entered will be stored in "a", second number entered will be stored in "b". Meassage will be "Please enter two numbers!".
+
+    //correct way to do it:
+    Create an interger variable for x
+    Create an interger variable for y
+    Create an interger variable for sum
+    Ask the user "First number?", and stored it in x
+    Ask the user "Second number?", and stored it in y
+    Put x + y in sum
+    Tell user "answer is: " sum
+    ]
+
+{The main construct of pseudocode:
+    1. SEQUENCE represents the linear tasks sequentially perform one after the others.
+    2. WHILE a loop with condition at its beginnign.
+    3. REPEAT-UNTIL a loop with conditioning at the bottom.
+    4. FOR anther way of looping.
+    5. IF-THEN-ELSE a conditional statement changing the flow of the algorithm.
+    6. CASE a generalization form of IF-THEN-ELSE.
+    7. CALL involking classes or funtions.
+    8. EXCEPTION, WHEN handling exceptions.
+}
+
+/home/porosenjoyer/Pictures/pseudocode%20constructs.png // Comprehensive example of pseudocode construct.
+/home/porosenjoyer/Pictures/pseudocode%20constructs.png // Extra comprehensive example of pseudocode construct.
+
+[Algorithm is a set of instruction to solve problems.]
+
+{Why using pseudocode?
+    1. It's easier to read.
+    2. It simplifies code construction.
+    3. It's a good middlepoint between flowchart and code.
+    4. It's a helpful starting point for documentation.
+    5. It allows for quick bug detection.
+}
+
+(Parse = Analizying)
+
+                                                            UNDERSTANDING ERRORS
+    ["Error" consists of a name/type and a message.]
+    ["ReferenceError" refers to a variable that is not declared and/or reference in the current scope]
+
+    {Common type of Errors:
+        1. Syntax Error: happen when the code you trying to run is not written correctly.
+        2. "ReferenceError" refers to a variable that is not declared and/or reference in the current scope.
+        3. Type Error:
+            _ An operator or argument passed to a function is incompatible with the type expected by that operator or functions.
+            _ Or attempting to modify a value that cannot be changed.
+            _ Or attempting to use a value in an inappopriate way.
+    }
